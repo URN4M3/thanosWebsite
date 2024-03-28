@@ -1,0 +1,83 @@
+/* CSS Document */
+
+table {
+	align-content: center;
+	text-align: center;
+}
+
+
+body {
+	background-color: rebeccapurple;
+}
+
+h1 {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	color: black;
+	background-color: mediumpurple;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding: 0 0 2em;
+}
+
+footer  {
+	text-align: center;
+	background-color: rebeccapurple;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding: 0 0 2em;
+}
+
+#hero_index {
+	background-image: url("../images/thanosHome.jpg");
+	background-size: fill;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	min-height: 450px;
+}
+
+#hero_studio {
+	background-image: url("../images/deathsSake.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 450px;
+}
+
+#hero_event {
+	background-image: url("../images/titanAmongMen.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 450px;
+}
+
+#hero_currency {
+	background-image: url("../images/bigTarget.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 450px;
+}
+
+main {
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+	align-content: center;
+}
